@@ -21,7 +21,7 @@ class Program
 
         
         double doubleValue = 9.78;
-        int intValue = (int)doubleValue;
+        int intValue = Convert.ToInt32(doubleValue);
         Console.WriteLine("explicitly casted int: " + intValue);
 
         int number = 100;
